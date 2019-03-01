@@ -1,0 +1,545 @@
+object Form1: TForm1
+  Left = 439
+  Height = 581
+  Top = 142
+  Width = 851
+  Caption = 'Form1'
+  ClientHeight = 581
+  ClientWidth = 851
+  OnCreate = FormCreate
+  LCLVersion = '1.4.2.0'
+  object BharmadikTizenketto: TButton
+    Left = 504
+    Height = 50
+    Top = 232
+    Width = 194
+    Caption = '25-36'
+    OnClick = BharmadikTizenkettoClick
+    TabOrder = 0
+  end
+  object Bhanegy: TButton
+    Left = 648
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '34'
+    OnClick = BhanegyClick
+    TabOrder = 1
+  end
+  object Bhaegy: TButton
+    Left = 600
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '31'
+    OnClick = BhaegyClick
+    TabOrder = 2
+  end
+  object Bhot: TButton
+    Left = 504
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '25'
+    OnClick = BhotClick
+    TabOrder = 3
+  end
+  object Bhnyolc: TButton
+    Left = 552
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '28'
+    OnClick = BhnyolcClick
+    TabOrder = 4
+  end
+  object BmasodikTizenketto: TButton
+    Left = 312
+    Height = 50
+    Top = 232
+    Width = 194
+    Caption = '13-24'
+    OnClick = BmasodikTizenkettoClick
+    TabOrder = 5
+  end
+  object Bhketto: TButton
+    Left = 456
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '22'
+    OnClick = BhkettoClick
+    TabOrder = 6
+  end
+  object Btkilenc: TButton
+    Left = 408
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '19'
+    OnClick = BtkilencClick
+    TabOrder = 7
+  end
+  object Btharom: TButton
+    Left = 312
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '13'
+    OnClick = BtharomClick
+    TabOrder = 8
+  end
+  object Bthat: TButton
+    Left = 360
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '16'
+    Font.Color = clRed
+    OnClick = BthatClick
+    ParentFont = False
+    TabOrder = 9
+  end
+  object BelsoTizenketto: TButton
+    Left = 120
+    Height = 50
+    Top = 232
+    Width = 194
+    Caption = '1-12'
+    OnClick = BelsoTizenkettoClick
+    TabOrder = 10
+  end
+  object Btiz: TButton
+    Left = 264
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '10'
+    OnClick = BtizClick
+    TabOrder = 11
+  end
+  object Bhet: TButton
+    Left = 216
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '7'
+    OnClick = BhetClick
+    TabOrder = 12
+  end
+  object Begy: TButton
+    Left = 120
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '1'
+    Color = clRed
+    Font.Color = clRed
+    OnClick = BegyClick
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Bnegy: TButton
+    Left = 168
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '4'
+    OnClick = BnegyClick
+    TabOrder = 14
+  end
+  object Bhaot: TButton
+    Left = 648
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '35'
+    OnClick = BhaotClick
+    TabOrder = 15
+  end
+  object Bhaketto: TButton
+    Left = 600
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '32'
+    OnClick = BhakettoClick
+    TabOrder = 16
+  end
+  object Bhhat: TButton
+    Left = 504
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '26'
+    OnClick = BhhatClick
+    TabOrder = 17
+  end
+  object Bhkilenc: TButton
+    Left = 552
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '29'
+    OnClick = BhkilencClick
+    TabOrder = 18
+  end
+  object Bhharom: TButton
+    Left = 456
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '23'
+    OnClick = BhharomClick
+    TabOrder = 19
+  end
+  object Bhusz: TButton
+    Left = 408
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '20'
+    OnClick = BhuszClick
+    TabOrder = 20
+  end
+  object Btnegy: TButton
+    Left = 312
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '14'
+    OnClick = BtnegyClick
+    TabOrder = 21
+  end
+  object Bthet: TButton
+    Left = 360
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '17'
+    OnClick = BthetClick
+    TabOrder = 22
+  end
+  object Btegy: TButton
+    Left = 264
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '11'
+    OnClick = BtegyClick
+    TabOrder = 23
+  end
+  object Bnyolc: TButton
+    Left = 216
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '8'
+    OnClick = BnyolcClick
+    TabOrder = 24
+  end
+  object Bketto: TButton
+    Left = 120
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '2'
+    OnClick = BkettoClick
+    TabOrder = 25
+  end
+  object Bot: TButton
+    Left = 168
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '5'
+    OnClick = BotClick
+    TabOrder = 26
+  end
+  object Bhahat: TButton
+    Left = 648
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '36'
+    OnClick = BhahatClick
+    TabOrder = 27
+  end
+  object Bhaharom: TButton
+    Left = 600
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '33'
+    OnClick = BhaharomClick
+    TabOrder = 28
+  end
+  object Bhhet: TButton
+    Left = 504
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '27'
+    OnClick = BhhetClick
+    TabOrder = 29
+  end
+  object Bharminc: TButton
+    Left = 552
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '30'
+    OnClick = BharmincClick
+    TabOrder = 30
+  end
+  object Bhnegy: TButton
+    Left = 456
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '24'
+    OnClick = BhnegyClick
+    TabOrder = 31
+  end
+  object Bhegy: TButton
+    Left = 408
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '21'
+    OnClick = BhegyClick
+    TabOrder = 32
+  end
+  object Btot: TButton
+    Left = 312
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '15'
+    OnClick = BtotClick
+    TabOrder = 33
+  end
+  object Btnyolc: TButton
+    Left = 360
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '18'
+    OnClick = BtnyolcClick
+    TabOrder = 34
+  end
+  object Btketto: TButton
+    Left = 264
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '12'
+    OnClick = BtkettoClick
+    TabOrder = 35
+  end
+  object Bkilenc: TButton
+    Left = 216
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '9'
+    OnClick = BkilencClick
+    TabOrder = 36
+  end
+  object Bharom: TButton
+    Left = 120
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '3'
+    OnClick = BharomClick
+    TabOrder = 37
+  end
+  object Bhat: TButton
+    Left = 168
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '6'
+    OnClick = BhatClick
+    TabOrder = 38
+  end
+  object Bnulla: TButton
+    Left = 72
+    Height = 146
+    Top = 88
+    Width = 50
+    Caption = '0'
+    OnClick = BnullaClick
+    TabOrder = 39
+  end
+  object Bharomoszlop: TButton
+    Left = 696
+    Height = 50
+    Top = 184
+    Width = 50
+    Caption = '<-'
+    OnClick = BharomoszlopClick
+    TabOrder = 40
+  end
+  object Bketoszlop: TButton
+    Left = 696
+    Height = 50
+    Top = 136
+    Width = 50
+    Caption = '<-'
+    OnClick = BketoszlopClick
+    TabOrder = 41
+  end
+  object Begyoszlop: TButton
+    Left = 696
+    Height = 50
+    Top = 88
+    Width = 50
+    Caption = '<-'
+    OnClick = BegyoszlopClick
+    TabOrder = 42
+  end
+  object Bparos: TButton
+    Left = 216
+    Height = 50
+    Top = 280
+    Width = 98
+    Caption = 'Páros'
+    OnClick = BparosClick
+    TabOrder = 43
+  end
+  object BelsoFel: TButton
+    Left = 120
+    Height = 50
+    Top = 280
+    Width = 98
+    Caption = '1-18'
+    OnClick = BelsoFelClick
+    TabOrder = 44
+  end
+  object Bfekete: TButton
+    Left = 408
+    Height = 50
+    Top = 280
+    Width = 98
+    Caption = 'Fekete'
+    OnClick = BfeketeClick
+    TabOrder = 45
+  end
+  object Bpiros: TButton
+    Left = 312
+    Height = 50
+    Top = 280
+    Width = 98
+    Caption = 'Piros'
+    OnClick = BpirosClick
+    TabOrder = 46
+  end
+  object BmasodikFel: TButton
+    Left = 600
+    Height = 50
+    Top = 280
+    Width = 98
+    Caption = '19-36'
+    OnClick = BmasodikFelClick
+    TabOrder = 47
+  end
+  object Bparatlan: TButton
+    Left = 504
+    Height = 50
+    Top = 280
+    Width = 98
+    Caption = 'Páratlan'
+    OnClick = BparatlanClick
+    TabOrder = 48
+  end
+  object Bszaz: TButton
+    Left = 104
+    Height = 60
+    Top = 384
+    Width = 90
+    Caption = '100'
+    OnClick = BszazClick
+    TabOrder = 49
+  end
+  object Botszaz: TButton
+    Left = 192
+    Height = 60
+    Top = 384
+    Width = 90
+    Caption = '500'
+    OnClick = BotszazClick
+    TabOrder = 50
+  end
+  object Bezer: TButton
+    Left = 280
+    Height = 60
+    Top = 384
+    Width = 90
+    Caption = '1000'
+    OnClick = BezerClick
+    TabOrder = 51
+  end
+  object Botezer: TButton
+    Left = 368
+    Height = 60
+    Top = 384
+    Width = 90
+    Caption = '5000'
+    OnClick = BotezerClick
+    TabOrder = 52
+  end
+  object Btizezer: TButton
+    Left = 456
+    Height = 60
+    Top = 384
+    Width = 90
+    Caption = '10000'
+    OnClick = BtizezerClick
+    TabOrder = 53
+  end
+  object Botvenezer: TButton
+    Left = 544
+    Height = 60
+    Top = 384
+    Width = 90
+    Caption = '50000'
+    OnClick = BotvenezerClick
+    TabOrder = 54
+  end
+  object Bszazezer: TButton
+    Left = 632
+    Height = 60
+    Top = 384
+    Width = 90
+    Caption = '100000'
+    OnClick = BszazezerClick
+    TabOrder = 55
+  end
+  object Losszertek: TLabel
+    Left = 352
+    Height = 15
+    Top = 40
+    Width = 79
+    Caption = 'Összes pénzed:'
+    ParentColor = False
+  end
+  object Lsorsolas: TLabel
+    Left = 408
+    Height = 15
+    Top = 536
+    Width = 48
+    Caption = 'Lsorsolas'
+    ParentColor = False
+  end
+  object Bsorsolas: TButton
+    Left = 344
+    Height = 46
+    Top = 468
+    Width = 138
+    Caption = 'Gurít'
+    OnClick = BsorsolasClick
+    TabOrder = 56
+  end
+end
